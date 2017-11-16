@@ -1,0 +1,16 @@
+
+# ===============================
+# = Logging configurations
+# ===============================
+logging:
+  level:
+    root: WARN
+    com.memorynotfound: DEBUG
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+# Cookie timeout 10 seconds
+server:
+  port: 9999
+  session:
+    cookie:
+      max-age: 10
