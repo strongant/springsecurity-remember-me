@@ -40,6 +40,8 @@ out/
 # JIRA plugin
 atlassian-ide-plugin.xml
 .idea/
+
+*.iml
 # Cursive Clojure plugin
 .idea/replstate.xml
 
