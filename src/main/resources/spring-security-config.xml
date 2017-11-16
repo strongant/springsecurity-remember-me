@@ -17,6 +17,7 @@
         <intercept-url pattern="/webjars/**" access="permitAll()"/>
         <intercept-url pattern="/**" access="isAuthenticated()"/>
 
+        <!--Spring Security 4.0以后默认开启宽展请求伪造保护，这里配置禁用，不安全的操作。-->
         <csrf disabled="true"/>
 
         <form-login
